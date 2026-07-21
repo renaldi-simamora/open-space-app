@@ -80,7 +80,7 @@ describe('authSlice reducer', () => {
       payload: token,
     });
     expect(state.loading).toBe(false);
-    expect(state.token).toBe('SENGAJA_SALAH');
+    expect(state.token).toBe(token);
     expect(state.error).toBeNull();
   });
 
